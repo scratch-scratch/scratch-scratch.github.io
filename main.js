@@ -13,6 +13,7 @@ http://orteil.dashnet.org
 /*=====================================================================================
 MISC HELPER FUNCTIONS
 =======================================================================================*/
+/* 5139 line is cheat for me*/
 function l(what) {return document.getElementById(what);}
 function choose(arr) {return arr[Math.floor(Math.random()*arr.length)];}
 
@@ -5136,6 +5137,7 @@ Game.Launch=function()
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') mult*=0.99;
 			else if (name=='ortiel') mult*=0.98;//or so help me
+			else if (name=='ちーずハッカー') mult*=2;//or so it cheat
 			
 			var sucking=0;
 			for (var i in Game.wrinklers)
