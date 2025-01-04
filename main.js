@@ -5137,7 +5137,7 @@ Game.Launch=function()
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') mult*=0.99;
 			else if (name=='ortiel') mult*=0.98;//or so help me
-			else if (name=='ちーずハッカー') mult*=99999.99;//or so it cheat
+			else if (name=='ちーずハッカー') mult*=9999999.99;//or so it cheat
 			
 			var sucking=0;
 			for (var i in Game.wrinklers)
